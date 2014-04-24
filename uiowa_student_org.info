@@ -1,5 +1,5 @@
 name = uiowa_student_org
-description = Please provide a description for your theme.
+description = A custom theme for student organizations based on Omega.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
