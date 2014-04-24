@@ -1,0 +1,41 @@
+.pager {
+  
+
+  .pager__item,
+  .pager__item--first,
+  .pager__item--last,
+  .pager__item--previous,
+  .pager__item--current,
+  .pager__item--next {
+    @include border-radius(3px);
+    @include inline-block;
+
+    &:hover, &:focus, &:active {
+      background-color: $gray;
+    }
+  }
+
+  .pager__item--current {
+    background-color: $link-color-default;
+    color: #FFFFFF;
+    font-weight: normal;
+    //@include border-radius(3px);
+
+    &:hover, &:focus, &:active {
+      background-color: $link-color-default;
+      cursor: default;
+    }
+  }
+
+  @include breakpoint($bp-mobile-only) {
+    .pager__item {
+      display: none;
+    }
+
+    .pager__item--current,
+    .pager__item--next,
+    .pager__item--previous {
+      @include inline-block;
+    }
+  }
+}

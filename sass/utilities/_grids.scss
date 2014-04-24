@@ -1,0 +1,51 @@
+// Grid of 3
+%full-width-grid-3 {
+  .has-no-sidebars & {
+    // 2 col grid
+    @include breakpoint($bp-tablet-portrait-only) {
+      @include float-span(6);
+      &:nth-child(odd) {
+        @include float-span(6, 'first');
+      }
+      &:nth-child(even) {
+        @include float-span(6, 'last');
+      }
+    }
+    //3 col grid
+    @include breakpoint($bp-tablet-landscape-only) {
+      @include float-span(4);
+      &:nth-child(3n+1) {
+        @include float-span(4, 'first');
+      }
+      &:nth-child(3n+3) {
+        @include float-span(4, 'last');
+      }
+    }
+    // 3 col grid
+    @include breakpoint($bp-desktop) {
+      @include float-span(4);
+      &:nth-child(3n+1) {
+        @include float-span(4, 'first');
+      }
+      &:nth-child(3n+3) {
+        @include float-span(4, 'last');
+      }
+    }
+  }
+}
+
+// Grid of 2
+%full-width-grid-2 {
+  .has-no-sidebars & {
+    // 2 col grid
+    @include breakpoint($bp-desktop) {
+      @include float-span(6);
+      &:nth-child(odd) {
+        @include float-span(6, 'first');
+      }
+      &:nth-child(even) {
+        @include float-span(6, 'last');
+      }
+    }
+  }
+}

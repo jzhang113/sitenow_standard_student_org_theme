@@ -1,0 +1,138 @@
+/*******************************************************************************
+ * student_org.layout.scss
+ *
+ * Styling of the "student org" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "../../variables/breakpoints";
+@import "../../utilities/grids";
+
+// Set Singularity grid variables.
+$grids: 1;
+$grids: add-grid(6 6 at $bp-mobile);
+$grids: add-grid(3 6 3 at $bp-desktop);
+$grids: add-grid(3 6 3 at $bp-desktop-large);
+
+$gutters: 1/3;
+
+.l-container,
+.container {
+  width: 100%;
+  max-width: $bp-desktop-large;
+  margin: 0 auto;
+  @include pie-clearfix;
+  //@include background-grid;
+}
+
+.l-main {
+  //margin-top: $vert-spacing-unit;
+}
+
+@include breakpoint($bp-mobile) {
+  /* Content Area */
+  .l-content {
+    @include grid-span(2, 1);
+  }
+
+  /* Sidebars */
+  .has-one-sidebar {
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include isolation-span(2, 1, 'both');
+    }
+  }
+  .has-two-sidebars {
+    .l-region--sidebar-first {
+      @include isolation-span(1, 1, 'both');
+    }
+    .l-region--sidebar-second {
+      @include grid-span(1, 2);
+    }
+  }
+}
+
+@include breakpoint($bp-desktop) {
+
+  // Has 1 Sidebar
+  .has-one-sidebar.has-sidebar-first {
+    .l-content {
+      @include grid-span(2, 2);
+    }
+    .l-region--sidebar-first {
+      @include grid-span(1, 1);
+    }
+  }
+  .has-one-sidebar.has-sidebar-second {
+    .l-content {
+      @include grid-span(2, 1);
+    }
+    .l-region--sidebar-second {
+      @include grid-span(1, 3);
+    }
+  }
+
+  /* Content Area */
+  .has-two-sidebars {
+    .l-content {
+      @include grid-span(2, 2);
+    }
+
+    .l-region--sidebar-first {
+      @include grid-span(1, 1);
+    }
+    .l-region--sidebar-second {
+      @include isolation-span(1, 1, 'left');
+    }
+  }
+}
+
+@include breakpoint($bp-desktop-large, true) {
+  /* Header Area */
+  .l-header {
+    @include pie-clearfix;
+  }
+  .l-branding {}
+  .l-region--header {}
+  .l-region--navigation {
+    clear: both;
+  }
+
+  /* Content Area */
+  .l-content {
+    @include grid-span(3, 1);
+  }
+
+  // Has 1 Sidebar
+  .has-one-sidebar.has-sidebar-first {
+    .l-content {
+      @include grid-span(2, 2);
+    }
+    .l-region--sidebar-first {
+      @include grid-span(1, 1);
+    }
+  }
+  .has-one-sidebar.has-sidebar-second {
+    .l-content {
+      @include grid-span(2, 1);
+    }
+    .l-region--sidebar-second {
+      @include grid-span(1, 3);
+    }
+  }
+
+  // Has 2 sidebars
+  .has-two-sidebars {
+    .l-content {
+      @include grid-span(1, 2);
+    }
+    .l-region--sidebar-first {
+      @include grid-span(1, 1);
+    }
+    .l-region--sidebar-second {
+      @include grid-span(1, 3);
+    }
+  }
+}

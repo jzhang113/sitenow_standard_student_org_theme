@@ -1,0 +1,112 @@
+.l-navigation {
+  border-bottom: 5px solid $yellow;
+
+  @include breakpoint($bp-responsive-nav) {
+    background-color: transparent;
+  }
+
+  .l-container {
+    padding: 0;
+  }
+}
+
+.l-region--navigation .block--responsive-navigation-1 {
+  .block__title {
+    @include element-invisible;
+  }
+
+  #nav-toggle {
+    background-color: $link-color-default;
+    color: #FFFFFF;
+    display: block;
+    padding: .75em 5px;
+    text-align: center;
+    text-transform: lowercase;
+    @include transition(all, 300ms);
+
+    &:before {
+      @include icon($fa-var-reorder, $margin-right: .5em);
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: darken($link-color-default, 5%);
+      border: none;
+    }
+
+    @include breakpoint(40em) {
+      display: none;
+    }
+  }
+
+  #nav .responsive-navigation {
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: $font-weight-normal;
+
+    @include breakpoint($bp-responsive-nav) {
+      text-align: center;
+    }
+
+    .leaf,
+    .collapsed,
+    .expanded {
+      list-style-type: none;
+      list-style-image: none;
+    }
+
+    li {
+
+      @include breakpoint(40em) {
+        width: auto;
+        @include inline-block;
+        margin-right: 1em;
+      }
+    }
+
+    a {
+      border-bottom: 1px dotted transparent;
+      display: block;
+      padding: .75em 0;
+      color: $base-font-color;
+      text-transform: lowercase;
+      @include text-shadow(1px 1px 0px rgba(0,0,0,.2));
+      @include transition(all, 100ms);
+
+      @include breakpoint($bp-responsive-nav) {
+        padding: 0.5em;
+        @include font-size(1.4);
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-bottom-color: $link-color-default;
+
+        @include breakpoint($bp-responsive-nav) {
+          border-bottom-color: transparent;
+        }
+      }
+    }
+
+    .active-trail a,
+    .active {
+      font-weight: bold;
+
+      @include breakpoint($bp-responsive-nav) {
+        background-color: $gray;
+        @include border-radius(3px);
+      }
+
+      &:hover, &:focus, &:active {
+        border-bottom-color: transparent;
+        cursor: default;
+      }
+    }
+
+    ul {
+      display: none;
+    }
+  }
+}

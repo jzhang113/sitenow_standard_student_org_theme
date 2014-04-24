@@ -1,0 +1,87 @@
+$grids: 1;
+$grids: add-grid(7 5 at $bp-mobile);
+$grids: add-grid(8 4 at $bp-desktop);
+
+.node-type-people .node-full {
+
+  .node__content {
+    @include pie-clearfix;
+  }
+
+  > h2 {
+    font-weight: $font-weight-bold;
+    @include font-size(3);
+    margin-bottom: .5em;
+  }
+
+  .field--label-above {
+    margin-top: .75em;
+  }
+
+  // Photo Field
+  .field--name-field-person-image {
+    line-height: 0;
+    margin-bottom: 1em;
+  }
+
+  // Position Field
+  .field--name-field-person-position {
+    .field__items {
+      @include font-size(2.2);
+      font-style: italic;
+    }
+  }
+
+  // Email Field
+  .field--name-field-person-email {
+    margin-bottom: .5em;
+  }
+
+  // Body/Bio Field
+  .field--name-field-person-bio {
+    margin-top: 1em;
+  }
+
+  // Layouts
+  @include breakpoint($bp-mobile) {
+    .field--name-field-person-image {
+      @include grid-span(1, 2);
+    }
+
+    .field--name-field-person-position,
+    .field--name-field-person-email,
+    .field--name-field-person-department,
+    .field--name-field-person-phone,
+    .field--name-field-person-office,
+    .field--name-field-person-website,
+    .field--name-field-person-type,
+    .field--name-field-person-cv {
+      @include isolation-span(1, 1, 'left');
+    }
+
+    .field--name-field-person-bio {
+      @include isolation-span(2, 1, 'both');
+    }
+  }
+
+  @include breakpoint($bp-desktop) {
+    .field--name-field-person-image {
+      @include grid-span(1, 2);
+    }
+
+    .field--name-field-person-position,
+    .field--name-field-person-email,
+    .field--name-field-person-department,
+    .field--name-field-person-phone,
+    .field--name-field-person-office,
+    .field--name-field-person-website,
+    .field--name-field-person-type,
+    .field--name-field-person-cv {
+      @include isolation-span(1, 1, 'left');
+    }
+
+    .field--name-field-person-bio {
+      @include isolation-span(2, 1, 'both');
+    }
+  }
+}

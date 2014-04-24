@@ -1,0 +1,37 @@
+@import "mixins";
+
+%simple-list {
+  .item-list ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: .5em;
+      padding-bottom: .5em;
+      border-bottom: 1px dotted #ddd;
+    }
+  }
+}
+
+%btn-filled, %views-read-more {
+  @include inline-block;
+  padding: .1em .6em;
+  border: 3px solid $link-color-default;
+  background: $link-color-default;
+  color: #fff;
+  @include font-size(1.5);
+  @include transition(all, 300ms);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparent;
+    color: $link-color-default;
+  }
+}
+
+// %views-read-more {
+//   margin: 40px 0;
+//   text-align: center;
+// }

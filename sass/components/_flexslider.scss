@@ -1,0 +1,147 @@
+.flexslider {
+  margin: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  @include border-radius(0);
+  @include box-shadow(none);
+  background: #fff;
+
+  .slides img {}
+}
+
+.flexslider {
+  display: block;
+  margin-bottom: 40px;
+  background: $base-font-color;
+
+  .flex-caption {
+    width: 100%;
+    padding: 1em;
+    background: $base-font-color;
+    color: #fff;
+    @include cf;
+  }
+
+  .views-field-slideshow-title {
+    font-weight: $font-weight-semi-bold;
+  }
+
+  .views-field-slideshow-description {
+    font-weight: $font-weight-light;
+  }
+
+  .views-field-slideshow-link {
+    display: block;
+
+    a {
+      @include button($color: #fff);
+      display: block;
+      float: left;
+      margin: 1em 0 0;
+
+      &:hover, &:focus, &:active {
+        background-color: $link-color-default;
+      }
+    }
+  }
+}
+
+// Paging Controls
+.flex-control-paging {
+  text-align: left;
+  bottom: -35px;
+
+  li {
+    margin: 0 .2em 0 0;
+
+    a {
+      background: $dark_gray;
+      border: 2px solid $dark_gray;
+      width: 10px;
+      height: 10px;
+      @include box-shadow(0 0 0 #fff);
+
+      &:hover, &:focus, &:active {
+        background: $link-color-default;
+      }
+    }
+
+    a.flex-active {
+      background: transparent;
+    }
+  }
+}
+
+// Directional Controls :: Arrows
+.flexslider {
+  .flex-direction-nav a {
+    display: block;
+    top: auto;
+    bottom: -25px;
+    @include opacity(1);
+
+    &.flex-prev,
+    &.flex-next {
+      background-image: none;
+      text-indent: 0;
+      height: auto;
+      width: auto;
+      @include font-size(0);
+      right: auto;
+      left: auto;
+
+      &:before {
+        @include font-size(1.2);
+        color: $dark_gray;
+      }
+    }
+
+    &.flex-prev {
+      right: 45px;
+
+      &:before {
+        @include icon($fa-var-backward);
+      }
+    }
+
+    &.flex-next {
+      right: 0px;
+
+      &:before {
+        @include icon($fa-var-forward);
+      }
+    }
+  }
+
+  &:hover {
+    .flex-prev {}
+
+    .flex-next {}
+  }
+
+  // Play Pause Controls
+  .flex-pauseplay {
+
+    a {
+      bottom: -24px;
+      left: auto;
+      right: 17px;
+      opacity: 1;
+      text-align: center;
+
+      &:hover,
+      &:focus,
+      &:active {
+      }
+    }
+
+    a.flex-pause:before {
+      @include icon($fa-var-pause, $color: $dark_gray, $size: 12px);
+    }
+
+    a.flex-play:before {
+      @include icon($fa-var-play, $color: $dark_gray, $size: 12px);
+    }
+  }
+}

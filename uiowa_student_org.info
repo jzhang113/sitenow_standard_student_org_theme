@@ -1,0 +1,37 @@
+name = uiowa_student_org
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/uiowa-student-org.normalize.css
+stylesheets[all][] = css/uiowa-student-org.hacks.css
+stylesheets[all][] = css/uiowa-student-org.styles.css
+stylesheets[all][] = css/uiowa-student-org.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/uiowa-student-org.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
+
+; ========================================
+; Plugins
+; ========================================
+plugins[panels][layouts] = layouts/panel_layouts

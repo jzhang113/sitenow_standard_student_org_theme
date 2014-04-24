@@ -1,0 +1,6 @@
+.pane-title,
+.block__title {
+  color: lighten($base-font-color, 10);
+  margin-bottom: 0.5em;
+  @include font-size(2.2);
+}

@@ -1,0 +1,39 @@
+// Make the Branding (first) region of the Aries layout full width. Confine the
+// rest of the regions with a max width.
+.front .has-no-sidebars .l-main  {
+  .l-container, .container {
+    max-width: none;
+    width: 100%;
+  }
+
+  .aries-full-width-wrapper {
+    @include cf;
+
+    @include breakpoint(max-width $page-max-width) {
+      margin: 0 -10px;
+    }
+  }
+
+  .aries-max-width-wrapper {
+    @include cf;
+    margin: 0 auto;
+    max-width: $page-max-width;
+  }
+}
+
+.front {
+  .pane-title,
+  .block__title {
+    @include font-size(3.4);
+    border-top: 2px solid $gray;
+    margin: 40px 0 20px;
+    padding-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include breakpoint($bp-responsive-nav) {
+      @include font-size(5.2);
+      margin-bottom: 40px;
+    }
+  }
+}

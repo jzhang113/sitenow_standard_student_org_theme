@@ -1,0 +1,91 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $base-font-color;
+  font-family: $base-font-stack;
+  font-size: 1.6em; // We should be using the font-size mixin with the base-font-size variable, hardcording to resolve chrome rem issue
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-stack;
+  margin: 0 0 .3em;
+  color: $header-font-color;
+}
+
+h1 {
+  color: lighten($base-font-color, 10);
+  @include font-size(3.4);
+
+  @include breakpoint($bp-responsive-nav) {
+    @include font-size(5.2);
+  }
+}
+
+h2 {
+  @include font-size(2.7);
+
+  @include breakpoint($bp-responsive-nav) {
+    @include font-size(3.7);
+  }
+}
+
+h3 {
+  @include font-size(2.2);
+
+  @include breakpoint($bp-responsive-nav) {
+    @include font-size(2.7);
+  }
+}
+
+h4 {
+  @include font-size(1.8);
+
+  @include breakpoint($bp-responsive-nav) {
+    @include font-size(2.3);
+  }
+}
+
+h5 {
+  @include font-size(1.8);
+}
+
+h6 {
+  @include font-size(1.6);
+}
+
+a {
+  color: $link-color-default;
+  text-decoration: none;
+  @include transition(all, 300ms);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($link-color-default, 5%);
+  }
+}
+
+p {
+  line-height: 1.6;
+  margin: 0 0 1.25em;
+}
+
+hr {
+  background: transparent;
+  border: none;
+  border-top: 1px solid $gray;
+  height: 1px;
+  margin: 1.25em 0 1.1875em;
+}
+
+ol, ul, dl {
+  margin-bottom: 1.25em;
+  margin-top: 0;
+}

@@ -1,0 +1,53 @@
+table, th, tr, td {
+  border-color: darken($gray, 20%);
+}
+
+thead {
+  border-bottom: 2px solid darken($gray, 20%);
+  margin-bottom: 1em;
+}
+
+th {
+  background: transparent;
+  text-align: center;
+
+  .active {
+    color: darken($link-color-default, 5%);
+  }
+
+  img {
+    position: relative;
+    top: 3px;
+    float: right;
+  }
+}
+
+th.active {
+  @include rgba-background(rgba(57,123,136, 0.1));
+}
+
+tr.odd {
+  background: transparent;
+}
+
+tr.even,
+tr:nth-child(even) {
+  background: $gray;
+}
+
+th,
+td {
+  padding: .3em;
+}
+
+td.active {
+  @include rgba-background(rgba(57,123,136, 0.1));
+
+  a {
+    color: darken($link-color-default, 5%);
+  }
+}
+
+.view td, .view th {
+  border: 1px dotted $gray;
+}

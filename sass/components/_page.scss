@@ -1,0 +1,136 @@
+.l-container, .container {
+  padding: 0 10px;
+
+  @include breakpoint($bp-desktop-large) {
+    padding: 0;
+  }
+}
+
+.site-name {
+  text-align: center;
+  text-transform: uppercase;
+  @include font-size(2.2);
+
+  @include breakpoint($bp-responsive-nav) {
+    @include font-size(4.4);
+  }
+
+  a {
+    color: lighten($base-font-color, 10);
+
+    &:hover, &:focus {
+      color: lighten($base-font-color, 20);
+    }
+  }
+}
+
+.l-navigation .l-container #nav {
+    padding: 0 1em;
+}
+
+.more-link {
+  text-align: center;
+}
+
+.l-footer {
+  background-color: #222222;
+  border-top: 8px solid #000000;
+  color: $footer-font-color;
+  padding-top: 20px;
+  @include box-shadow(#2E2E2E 0 1px 0 inset);
+  @include font-size(1.3);
+
+  a {
+    color: $footer-font-color;
+
+    &:hover, &:focus {
+      color: $footer-font-color;
+    }
+  }
+
+  a.button {
+    border: 3px solid $footer-font-color;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    @include font-size($base-font-size);
+
+    &:hover, &:focus {
+      background-color: $footer-font-color;
+      color: #222222;
+    }
+  }
+}
+
+#sitenow-footer {
+  @include breakpoint($bp-tablet) {
+    @include cf;
+    float: left;
+    width: 67%;
+
+    .sitenow-footer-info {
+      float: left;
+      padding-right: 30px;
+      width: 67%;
+    }
+
+    #sitenow-footer-social-media {
+      float: left;
+      padding-right: 30px;
+      width: 33%;
+    }
+  }
+
+  @include breakpoint($bp-desktop) {
+    width: 75%;
+
+    .sitenow-footer-info {
+      float: left;
+      padding-right: 30px;
+      width: 67%;
+    }
+
+    #sitenow-footer-social-media {
+      float: left;
+      padding-right: 30px;
+      width: 33%;
+    }
+  }
+}
+
+#osl-footer {
+  @include breakpoint($bp-tablet) {
+    float: left;
+    width: 33%;
+  }
+
+  @include breakpoint($bp-desktop) {
+    width: 25%;
+  }
+}
+
+#ui-global-footer {
+  background-color: #222222;
+  border-top: none;
+  box-shadow: none;
+  color: $footer-font-color;
+
+  .l-container {
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+  }
+}
+
+#ui-footer-logo a {
+  color: $footer-font-color;
+}
+
+#ui-global-links {
+  ul {
+    padding: 0;
+
+    a {
+      color: $footer-font-color;
+    }
+  }
+}
