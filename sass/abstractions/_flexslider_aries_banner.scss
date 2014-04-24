@@ -25,6 +25,9 @@
     
     .views-field-slideshow-description {
       line-height: 1.6;
+      font-family: $header-font-stack;
+      font-weight: $font-weight-semi-bold;
+      letter-spacing: 1px;
       @include font-size(1.8);
       @include rgba-background(rgba(0,0,0, 0.75));
 
@@ -51,6 +54,9 @@
 
       a {
         float: none;
+        font-family: $header-font-stack;
+        font-weight: $font-weight-semi-bold;
+        letter-spacing: 1px;
         padding: 0.5em;
         text-transform: uppercase;
         @include inline-block;
