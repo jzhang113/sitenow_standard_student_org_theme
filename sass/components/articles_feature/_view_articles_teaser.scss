@@ -12,7 +12,9 @@
   .views-field-title {
 
     h3 {
+      font-weight: $font-weight-normal;
       margin-bottom: 0;
+      @include font-size(3.2);
     }
   }
 

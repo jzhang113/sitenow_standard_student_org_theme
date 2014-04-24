@@ -575,8 +575,11 @@ ol, ul, dl {
   margin-bottom: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000314}}
 .view-display-id-articles_teaser .views-field-title h3, .view-display-id-articles_grid .views-field-title h3 {
-  margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000319}}
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 32px;
+  font-size: 3.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000321}}
 .view-display-id-articles_teaser .views-field-field-image, .view-display-id-articles_grid .views-field-field-image {
   line-height: 0; }
 
@@ -659,25 +662,32 @@ ol, ul, dl {
 .view-display-id-events_grid .views-field-field-event-date-2 {
   text-align: center;
   margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000318}}
+  .view-display-id-events_grid .views-field-field-event-date-2 .field-event-start-month {
+    font-family: "proxima-nova-condensed", "Open Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: .3em;
+    font-size: 20px;
+    font-size: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000324}}
   .view-display-id-events_grid .views-field-field-event-date-2 .field-event-start-day {
     font-size: 100px;
     font-size: 10rem;
+    font-family: "proxima-nova-condensed", "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 100;
     margin-top: -24px;
     padding-top: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000334}}
 .view-display-id-events_grid .views-field-title {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000337}}
   .view-display-id-events_grid .views-field-title a {
-    font-weight: 100;
-    font-size: 26px;
-    font-size: 2.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000340}}
+    font-weight: 400;
+    font-size: 32px;
+    font-size: 3.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000344}}
 .view-display-id-events_grid .views-field-field-event-date {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000347}}
   .view-display-id-events_grid .views-field-field-event-date .field-content:before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -686,10 +696,10 @@ ol, ul, dl {
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
     content: "\f073"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000354}}
 .view-display-id-events_grid .views-field-field-event-date-3 {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000357}}
   .view-display-id-events_grid .views-field-field-event-date-3 .field-content:before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -698,10 +708,10 @@ ol, ul, dl {
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
     content: "\f017"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000364}}
 .view-display-id-events_grid .views-field-field-event-location {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000367}}
   .view-display-id-events_grid .views-field-field-event-location .name-block .name-block:before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -710,12 +720,12 @@ ol, ul, dl {
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
     content: "\f041"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000374}}
 .view-display-id-events_grid .views-field-field-event-description {
   border-top: 1px dotted #ccc;
   margin-top: .5em;
   padding-top: .7em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_grid\.scss}line{font-family:\0000381}}
 .view-display-id-events_grid .views-field-view-node a {
   margin-top: 1em; }
 
@@ -745,25 +755,32 @@ ol, ul, dl {
 .view-display-id-events_teaser .views-field-field-event-date-2 {
   text-align: center;
   margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000333}}
+  .view-display-id-events_teaser .views-field-field-event-date-2 .field-event-start-month {
+    font-family: "proxima-nova-condensed", "Open Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: .3em;
+    font-size: 20px;
+    font-size: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000339}}
   .view-display-id-events_teaser .views-field-field-event-date-2 .field-event-start-day {
     font-size: 100px;
     font-size: 10rem;
+    font-family: "proxima-nova-condensed", "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 100;
     margin-top: -24px;
     padding-top: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000349}}
 .view-display-id-events_teaser .views-field-title {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000352}}
   .view-display-id-events_teaser .views-field-title a {
-    font-weight: 100;
-    font-size: 26px;
-    font-size: 2.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000355}}
+    font-weight: 400;
+    font-size: 32px;
+    font-size: 3.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000359}}
 .view-display-id-events_teaser .views-field-field-event-date {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000362}}
   .view-display-id-events_teaser .views-field-field-event-date .field-content:before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -772,10 +789,10 @@ ol, ul, dl {
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
     content: "\f073"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000369}}
 .view-display-id-events_teaser .views-field-field-event-date-3 {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000372}}
   .view-display-id-events_teaser .views-field-field-event-date-3 .field-content:before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -784,10 +801,10 @@ ol, ul, dl {
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
     content: "\f017"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000379}}
 .view-display-id-events_teaser .views-field-field-event-location {
   margin-bottom: .3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000382}}
   .view-display-id-events_teaser .views-field-field-event-location .name-block .name-block:before {
     font-family: FontAwesome;
     font-weight: normal;
@@ -796,7 +813,7 @@ ol, ul, dl {
     -webkit-font-smoothing: antialiased;
     *margin-right: .3em;
     content: "\f041"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/events_feature\/_views_events_teaser\.scss}line{font-family:\0000389}}
 .view-display-id-events_teaser .views-field-field-event-description {
   border-top: 1px dotted #f2f2f2;
   margin-top: .5em;
@@ -1151,9 +1168,9 @@ ol, ul, dl {
   margin-bottom: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/people_feature\/_views_people_grid\.scss}line{font-family:\0000322}}
 .view-display-id-people_grid .views-field-title a {
-  font-weight: 100;
-  font-size: 26px;
-  font-size: 2.6rem; }
+  font-weight: 400;
+  font-size: 32px;
+  font-size: 3.2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/people_feature\/_views_people_grid\.scss}line{font-family:\0000328}}
 .view-display-id-people_grid .views-field-field-person-image {
   line-height: 0; }
