@@ -5,16 +5,10 @@
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
       <?php endif; ?>
 
-      <?php if ($site_name || $site_slogan): ?>
-        <?php if ($site_name): ?>
-          <h1 class="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-          </h1>
-        <?php endif; ?>
-
-        <?php if ($site_slogan): ?>
-          <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
-        <?php endif; ?>
+      <?php if ($site_name): ?>
+        <h1 class="site-name">
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+        </h1>
       <?php endif; ?>
 
       <?php print render($page['branding']); ?>
@@ -25,6 +19,27 @@
 
   <div class="l-navigation"><div class="l-container">
     <?php print render($page['navigation']); ?>
+  </div></div>
+
+  <div class="l-hero"><div class="l-container">
+    <?php if ($hero_image && $hero_image_full_path): ?>
+      <div class="hero-image-wrapper">
+        <img src="<?php print $hero_image_full_path; ?>" alt="">
+        <div class="hero-image-overlay">
+          <?php if ($site_slogan): ?>
+            <span class="site-slogan"><?php print $site_slogan; ?></span>
+          <?php endif; ?>
+          <?php if ($hero_image_link1 || $hero_image_link2): ?>
+            <div class="hero-image-links">
+              <?php print $hero_image_link1; ?>
+              <?php print $hero_image_link2; ?>
+            </div>
+          <?php endif; ?>
+        </div>
+      </div>
+    <?php endif; ?>
+
+    <?php print render($page['hero']); ?>
   </div></div>
 
   <a id="main-content"></a>

@@ -6,6 +6,7 @@ template = student-org-layout
 ; Regions
 regions[branding]       = Branding
 regions[header]         = Header
+regions[hero]           = Hero
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help

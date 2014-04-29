@@ -45,13 +45,18 @@ function uiowa_student_org_form_system_theme_settings_alter(&$form, &$form_state
   );
 
   // Image settings
-  // Helpful text showing the file name, disabled to avoid the user thinking it
+  // Helpful text showing the (original) file name, disabled to avoid the user thinking it
   // can be used for any purpose.
   $form['uiowa_student_org_front_page_hero_config']['image']['image_path'] = array(
     '#type' => 'textfield',
     '#title' => 'Hero image file name',
     '#default_value' => theme_get_setting('image_path'),
     '#disabled' => TRUE,
+  );
+  // Store the full, cleaned path to the hero image.
+  $form['uiowa_student_org_front_page_hero_config']['image']['image_full_path'] = array(
+    '#type' => 'value',
+    '#value' => theme_get_setting('image_full_path'),
   );
   // Upload field.
   $form['uiowa_student_org_front_page_hero_config']['image']['image_upload'] = array(
@@ -121,11 +126,27 @@ function uiowa_student_org_theme_settings_form_submit($form, &$form_state) {
   // Check for a new uploaded hero image, and use that instead.
   if ($file = file_save_upload('image_upload', $validate)) {
     $parts = pathinfo($file->filename);
-    $filename = $directory_path . '/' . $parts['basename'];
-    file_unmanaged_copy($file->uri, $filename, FILE_EXISTS_REPLACE);
+    $filename = $parts['basename'];
+    // Replace whitespace.
+    $filename = str_replace(' ', '_', $filename);
+    // Remove remaining unsafe characters.
+    $filename = preg_replace('![^0-9A-Za-z_.-]!', '', $filename);
+    // Remove multiple consecutive non-alphabetical characters.
+    $filename = preg_replace('/(_)_+|(\.)\.+|(-)-+/', '\\1\\2\\3', $filename);
+    // Force lowercase to prevent issues on case-insensitive file systems.
+    if (variable_get('transliteration_file_lowercase', TRUE)) {
+      $filename = strtolower($filename);
+    }
+
+    $destination = $directory_path . '/' . $filename;
+
+    file_unmanaged_copy($file->uri, $destination, FILE_EXISTS_REPLACE);
 
     // Display the file name to users since the full path doesn't mean
     // anything to them.
     $form_state['values']['image_path'] = $parts['basename'];
+
+    // Save the full path to the hero image 
+    $form_state['values']['image_full_path'] = variable_get('file_public_path', conf_path() . '/files') . '/theme/hero_image/' . $filename;
   }
 }
