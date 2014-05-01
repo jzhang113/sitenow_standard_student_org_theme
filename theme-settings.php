@@ -57,7 +57,7 @@ function uiowa_student_org_form_system_theme_settings_alter(&$form, &$form_state
   $form['uiowa_student_org_front_page_hero_config']['image']['image_upload'] = array(
     '#type' => 'file',
     '#title' => t('Upload hero image'),
-    '#description' => t('Only files with the following extensions are allowed: jpg jpeg gif png.'),
+    '#description' => t('Recommended minimum dimensions of the image to upload are 1900px x 660px.<br>Only files with the following extensions are allowed: <em>jpg jpeg gif png</em>.'),
     '#default_value' => theme_get_setting('image_upload'),
   );
 
