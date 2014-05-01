@@ -420,7 +420,6 @@ ol, ul, dl {
   background-position: center;
   background-size: cover;
   border-bottom: 5px solid #ffce2f;
-  margin-bottom: 40px;
   position: relative; }
   @media (min-width: 750px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000318}}
@@ -431,12 +430,12 @@ ol, ul, dl {
     .hero-image-wrapper {
       padding-top: 400px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000335}}
 .hero-image-overlay {
   margin: 0 auto;
   max-width: 1000px;
   padding: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000340}}
   .hero-image-overlay .site-slogan {
     color: #fff;
     line-height: 1.6;
@@ -448,15 +447,15 @@ ol, ul, dl {
     background: url('../images/rgbapng/000000bf-5.png?1398365187');
     background: rgba(0, 0, 0, 0.75); }
     @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000340}}
       .hero-image-overlay .site-slogan {
         font-size: 30px;
         font-size: 3rem; } }
   @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000354}}
     .hero-image-overlay .hero-image-links {
       text-align: center; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000359}}
   .hero-image-overlay .hero-image-links a {
     color: #fff;
     border: 2px solid #fff;
@@ -475,12 +474,12 @@ ol, ul, dl {
     background: rgba(0, 0, 0, 0.75);
     margin: 1em 0.25em; }
     @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000359}}
       .hero-image-overlay .hero-image-links a {
         padding: 0.75em;
         font-size: 20px;
         font-size: 2rem; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000376}}
     .hero-image-overlay .hero-image-links a:hover, .hero-image-overlay .hero-image-links a:focus, .hero-image-overlay .hero-image-links a:active {
       background: #397b88; }
 
@@ -514,18 +513,19 @@ ol, ul, dl {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000329}}
 .l-hero .l-container {
+  margin-bottom: 40px;
   max-width: none;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000335}}
 .l-navigation .l-container #nav {
   padding: 0 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000339}}
 .more-link {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000343}}
 .l-footer {
   background-color: #222222;
   border-top: 8px solid #000000;
@@ -536,13 +536,13 @@ ol, ul, dl {
   box-shadow: #2e2e2e 0 1px 0 inset;
   font-size: 13px;
   font-size: 1.3rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000351}}
   .l-footer a {
     color: #eeeeee; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000354}}
     .l-footer a:hover, .l-footer a:focus {
       color: #eeeeee; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000359}}
   .l-footer a.button {
     border: 3px solid #eeeeee;
     display: block;
@@ -550,73 +550,73 @@ ol, ul, dl {
     text-align: center;
     font-size: 16px;
     font-size: 1.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000366}}
     .l-footer a.button:hover, .l-footer a.button:focus {
       background-color: #eeeeee;
       color: #222222; }
 
 @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000373}}
   #sitenow-footer {
     overflow: hidden;
     *overflow: visible;
     *zoom: 1;
     float: left;
     width: 67%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000379}}
     #sitenow-footer .sitenow-footer-info {
       float: left;
       padding-right: 30px;
       width: 67%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000385}}
     #sitenow-footer #sitenow-footer-social-media {
       float: left;
       padding-right: 30px;
       width: 33%; } }
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000373}}
   #sitenow-footer {
     width: 75%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000395}}
     #sitenow-footer .sitenow-footer-info {
       float: left;
       padding-right: 30px;
       width: 67%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003101}}
     #sitenow-footer #sitenow-footer-social-media {
       float: left;
       padding-right: 30px;
       width: 33%; } }
 
 @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003109}}
   #osl-footer {
     float: left;
     width: 33%; } }
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003109}}
   #osl-footer {
     width: 25%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003120}}
 #ui-global-footer {
   background-color: #222222;
   border-top: none;
   box-shadow: none;
   color: #eeeeee; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003126}}
   #ui-global-footer .l-container {
     border-top: 1px solid #000000;
     padding-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003132}}
 #ui-footer-logo a {
   color: #eeeeee; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003137}}
 #ui-global-links ul {
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003140}}
   #ui-global-links ul a {
     color: #eeeeee; }
 
