@@ -65,6 +65,7 @@ function uiowa_student_org_form_system_theme_settings_alter(&$form, &$form_state
   $form['uiowa_student_org_front_page_hero_config']['links']['link1'] = array(
     '#type' => 'fieldset',
     '#title' => t('Link 1'),
+    '#element_validate' => array('_hero_image_link_validate',),
   );
   $form['uiowa_student_org_front_page_hero_config']['links']['link1']['link1_title'] = array(
     '#type' => 'textfield',
@@ -83,6 +84,7 @@ function uiowa_student_org_form_system_theme_settings_alter(&$form, &$form_state
   $form['uiowa_student_org_front_page_hero_config']['links']['link2'] = array(
     '#type' => 'fieldset',
     '#title' => t('Link 2'),
+    '#element_validate' => array('_hero_image_link_validate',),
   );
   $form['uiowa_student_org_front_page_hero_config']['links']['link2']['link2_title'] = array(
     '#type' => 'textfield',
@@ -131,5 +133,19 @@ function uiowa_student_org_theme_settings_form_submit($form, &$form_state) {
     // anything to them.
     $parts = pathinfo($file->filename);
     $form_state['values']['image_path'] = $parts['basename'];
+  }
+}
+
+/**
+ * Check that if a hero image link title or URL is provided, then both are
+ * provided.
+ */
+function _hero_image_link_validate($element, &$form_state, $form) {
+  if (empty($element['link1_title']['#value']) !== empty($element['link1_url']['#value'])) {
+    form_set_error('link1', t('The title and URL must either both be provided or both be empty for Front Page Hero Image Setting ' . $element['#title'] . '.'));
+  }
+
+  if (empty($element['link2_title']['#value']) !== empty($element['link2_url']['#value'])) {
+    form_set_error('link2', t('The title and URL must either both be provided or both be empty for Front Page Hero Image Setting ' . $element['#title'] . '.'));
   }
 }
