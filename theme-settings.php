@@ -53,11 +53,6 @@ function uiowa_student_org_form_system_theme_settings_alter(&$form, &$form_state
     '#default_value' => theme_get_setting('image_path'),
     '#disabled' => TRUE,
   );
-  // Store the full, cleaned path to the hero image.
-  $form['uiowa_student_org_front_page_hero_config']['image']['image_full_path'] = array(
-    '#type' => 'value',
-    '#value' => theme_get_setting('image_full_path'),
-  );
   // Upload field.
   $form['uiowa_student_org_front_page_hero_config']['image']['image_upload'] = array(
     '#type' => 'file',
@@ -136,8 +131,5 @@ function uiowa_student_org_theme_settings_form_submit($form, &$form_state) {
     // anything to them.
     $parts = pathinfo($file->filename);
     $form_state['values']['image_path'] = $parts['basename'];
-
-    // Save the full path to the hero image 
-    $form_state['values']['image_full_path'] = variable_get('file_public_path', conf_path() . '/files') . '/theme/hero_image/' . $filename;
   }
 }
