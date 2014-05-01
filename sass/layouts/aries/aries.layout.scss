@@ -26,26 +26,25 @@ $gutters: 1/3;
 
 // Page reactions
 @include breakpoint($bp-tablet) {
-  .aries-region--third {
+  .aries-region--second {
     @include float-span(7, alpha);
   }
-  .aries-region--fourth {
+  .aries-region--third {
     @include float-span(5, omega);
   }
-  .aries-region--fifth {
+  .aries-region--fourth {
     @include float-span(12, alpha);
   }
 }
 
 // Views grid reactions
 .aries-region--first,
-.aries-region--second,
-.aries-region--fifth {
+.aries-region--fourth {
   .views-grid .views-row {
     @extend %full-width-grid-3;
   }
 }
 
-.aries-region--third .views-grid .views-row {
+.aries-region--second .views-grid .views-row {
   @extend %full-width-grid-2;
 }

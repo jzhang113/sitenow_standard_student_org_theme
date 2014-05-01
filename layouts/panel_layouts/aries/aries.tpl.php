@@ -10,23 +10,12 @@
  */
 ?>
 
-<?php $banner = array_shift($content); ?>
-
 <div<?php print $attributes ?>>
-  <?php if(!empty($banner)): ?>
-    <div class="aries-full-width-wrapper">
-      <div<?php print drupal_attributes($region_attributes_array['first'])?>>
-        <?php print $banner ?>
+  <?php foreach($content as $name => $item): ?>
+    <?php if (!empty($item)): ?>
+      <div<?php print drupal_attributes($region_attributes_array[$name])?>>
+        <?php print $item ?>
       </div>
-    </div>
-  <?php endif; ?>
-  <div class="aries-max-width-wrapper">
-    <?php foreach($content as $name => $item): ?>
-      <?php if (!empty($item)): ?>
-        <div<?php print drupal_attributes($region_attributes_array[$name])?>>
-          <?php print $item ?>
-        </div>
-      <?php endif; ?>
-    <?php endforeach; ?>
-  </div>
+    <?php endif; ?>
+  <?php endforeach; ?>
 </div>

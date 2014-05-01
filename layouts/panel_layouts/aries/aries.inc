@@ -16,10 +16,9 @@ $plugin = array(
   'css' => '../../../css/layouts/aries/aries.layout.css',
   'regions' => array(
     'first' => t('Banner'),
-    'second' => t('Header Top'),
-    'third' => t('Header Left'),
-    'fourth' => t('Header Right'),
-    'fifth' => t('Content'),
+    'second' => t('Header Left'),
+    'third' => t('Header Right'),
+    'fourth' => t('Content'),
   ),
 );
 
