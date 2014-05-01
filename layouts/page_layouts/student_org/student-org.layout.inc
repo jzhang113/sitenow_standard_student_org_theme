@@ -1,5 +1,5 @@
 name = Student Org
-description = Page layout for uiowa_student_org Omega subtheme.
+description = A 3 column layout with a full-width hero region for the uiowa_student_org Omega subtheme.
 preview = preview.png
 template = student-org-layout
 
