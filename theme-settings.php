@@ -125,25 +125,16 @@ function uiowa_student_org_theme_settings_form_submit($form, &$form_state) {
 
   // Check for a new uploaded hero image, and use that instead.
   if ($file = file_save_upload('image_upload', $validate)) {
-    $parts = pathinfo($file->filename);
-    $filename = $parts['basename'];
-    // Replace whitespace.
-    $filename = str_replace(' ', '_', $filename);
-    // Remove remaining unsafe characters.
-    $filename = preg_replace('![^0-9A-Za-z_.-]!', '', $filename);
-    // Remove multiple consecutive non-alphabetical characters.
-    $filename = preg_replace('/(_)_+|(\.)\.+|(-)-+/', '\\1\\2\\3', $filename);
-    // Force lowercase to prevent issues on case-insensitive file systems.
-    if (variable_get('transliteration_file_lowercase', TRUE)) {
-      $filename = strtolower($filename);
-    }
-
+    // Use the same filename for all images so that we can call the image from
+    // a css file.
+    $filename = 'hero';
     $destination = $directory_path . '/' . $filename;
 
     file_unmanaged_copy($file->uri, $destination, FILE_EXISTS_REPLACE);
 
     // Display the file name to users since the full path doesn't mean
     // anything to them.
+    $parts = pathinfo($file->filename);
     $form_state['values']['image_path'] = $parts['basename'];
 
     // Save the full path to the hero image 

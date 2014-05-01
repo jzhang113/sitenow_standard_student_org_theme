@@ -1,26 +1,3 @@
-// Make the Branding (first) region of the Aries layout full width. Confine the
-// rest of the regions with a max width.
-.front .has-no-sidebars .l-main  {
-  .l-container, .container {
-    max-width: none;
-    width: 100%;
-  }
-
-  .aries-full-width-wrapper {
-    @include cf;
-
-    @include breakpoint(max-width $page-max-width) {
-      margin: 0 -10px;
-    }
-  }
-
-  .aries-max-width-wrapper {
-    @include cf;
-    margin: 0 auto;
-    max-width: $page-max-width;
-  }
-}
-
 .front {
   .pane-title,
   .block__title {
@@ -34,6 +11,72 @@
     @include breakpoint($bp-responsive-nav) {
       @include font-size(5.2);
       margin-bottom: 40px;
+    }
+  }
+}
+
+.hero-image-wrapper {
+  // The path of the background image is set in theme-settings.php.
+  background-image: url("/files/local.orgs2/files/theme/hero_image/hero");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px solid $yellow;
+  margin-bottom: 40px;
+  position: relative;
+
+  @include breakpoint($bp-tablet) {
+    padding-top: 300px;
+  }
+
+  @include breakpoint($bp-desktop) {
+    padding-top: 400px;
+  }
+}
+
+.hero-image-overlay {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1em;
+
+  .site-slogan {
+    color: #fff;
+    line-height: 1.6;
+    font-family: $header-font-stack;
+    font-weight: $font-weight-semi-bold;
+    letter-spacing: 1px;
+    @include font-size(2);
+    @include rgba-background(rgba(0,0,0, 0.75));
+
+    @include breakpoint($bp-tablet) {
+      @include font-size(3);
+    }
+  }
+
+  .hero-image-links {
+    @include breakpoint($bp-tablet) {
+      text-align: center;
+    }
+
+    a {
+      color: #fff;
+      border: 2px solid #fff;
+      font-family: $header-font-stack;
+      font-weight: $font-weight-semi-bold;
+      letter-spacing: 1px;
+      padding: 0.5em;
+      text-transform: uppercase;
+      @include inline-block;
+      @include rgba-background(rgba(0,0,0,0.75));
+      margin: 1em 0.25em;
+
+      @include breakpoint($bp-tablet) {
+        padding: 0.75em;
+        @include font-size(2);
+      }
+
+      &:hover, &:focus, &:active {
+        background: $link-color-default;
+      }
     }
   }
 }

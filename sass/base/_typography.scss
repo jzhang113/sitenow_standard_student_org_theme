@@ -62,15 +62,16 @@ h6 {
   @include font-size(1.6);
 }
 
-a {
+.l-page a {
   color: $link-color-default;
+  font-weight: $font-weight-bold;
   text-decoration: none;
   @include transition(all, 300ms);
 
   &:hover,
   &:focus,
   &:active {
-    color: darken($link-color-default, 5%);
+    color: darken($link-color-default, 10%);
   }
 }
 

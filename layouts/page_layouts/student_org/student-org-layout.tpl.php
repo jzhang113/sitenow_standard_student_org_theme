@@ -22,9 +22,8 @@
   </div></div>
 
   <div class="l-hero"><div class="l-container">
-    <?php if ($hero_image && $hero_image_full_path): ?>
+    <?php if ($is_front && $hero_image): ?>
       <div class="hero-image-wrapper">
-        <img src="<?php print $hero_image_full_path; ?>" alt="">
         <div class="hero-image-overlay">
           <?php if ($site_slogan): ?>
             <span class="site-slogan"><?php print $site_slogan; ?></span>
