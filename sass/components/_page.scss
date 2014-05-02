@@ -6,10 +6,13 @@
   }
 }
 
+.l-branding {
+  text-align: center;
+}
+
 .site-name {
   line-height: 1.6;
   margin: 0;
-  text-align: center;
   text-transform: uppercase;
   @include font-size(3);
 
