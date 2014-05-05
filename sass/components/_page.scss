@@ -94,31 +94,9 @@
 
   @include breakpoint($bp-desktop) {
     width: 75%;
-
-    .sitenow-footer-info {
-      float: left;
-      padding-right: 30px;
-      width: 67%;
-    }
-
-    #sitenow-footer-social-media {
-      float: left;
-      padding-right: 30px;
-      width: 33%;
-    }
   }
 }
-
-#osl-footer {
-  @include breakpoint($bp-tablet) {
-    float: left;
-    width: 33%;
-  }
-
-  @include breakpoint($bp-desktop) {
-    width: 25%;
-  }
-}
+  
 
 #ui-global-footer {
   background-color: #222222;
@@ -142,6 +120,7 @@
 
     a {
       color: $footer-font-color;
+      text-decoration: none;
     }
   }
 }
