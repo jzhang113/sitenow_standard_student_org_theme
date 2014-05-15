@@ -562,43 +562,37 @@ ol, ul, dl {
   #sitenow-footer {
     overflow: hidden;
     *overflow: visible;
-    *zoom: 1;
-    float: left;
-    width: 67%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000382}}
+    *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000380}}
     #sitenow-footer .sitenow-footer-info {
       float: left;
       padding-right: 30px;
-      width: 67%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000388}}
+      width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000386}}
     #sitenow-footer #sitenow-footer-social-media {
       float: left;
-      padding-right: 30px;
-      width: 33%; } }
-@media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000376}}
-  #sitenow-footer {
-    width: 75%; } }
+      width: 25%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000394}}
 #ui-global-footer {
   background-color: #222222;
   border-top: none;
   box-shadow: none;
+  clear: both;
   color: #eeeeee; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003101}}
   #ui-global-footer .l-container {
     border-top: 1px solid #000000;
     padding-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003107}}
 #ui-footer-logo a {
   color: #eeeeee; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003112}}
 #ui-global-links ul {
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\00003115}}
   #ui-global-links ul a {
     color: #eeeeee;
     text-decoration: none; }

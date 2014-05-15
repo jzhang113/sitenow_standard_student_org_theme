@@ -76,24 +76,17 @@
 #sitenow-footer {
   @include breakpoint($bp-tablet) {
     @include cf;
-    float: left;
-    width: 67%;
 
     .sitenow-footer-info {
       float: left;
       padding-right: 30px;
-      width: 67%;
+      width: 75%;
     }
 
     #sitenow-footer-social-media {
       float: left;
-      padding-right: 30px;
-      width: 33%;
+      width: 25%;
     }
-  }
-
-  @include breakpoint($bp-desktop) {
-    width: 75%;
   }
 }
   
@@ -102,6 +95,7 @@
   background-color: #222222;
   border-top: none;
   box-shadow: none;
+  clear: both;
   color: $footer-font-color;
 
   .l-container {
