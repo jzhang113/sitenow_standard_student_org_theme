@@ -16,8 +16,8 @@
 }
 
 .hero-image-wrapper {
-  // The path of the background image is set in theme-settings.php.
-  background-image: url("/files/local.orgs2/files/theme/hero_image/hero");
+  // The path of the background image is set in theme-settings.php
+  // and the image source in included as inline css in student-org-layout.tpl.php
   background-position: center;
   background-size: cover;
   border-bottom: 5px solid $yellow;

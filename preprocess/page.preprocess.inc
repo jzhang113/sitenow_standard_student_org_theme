@@ -5,7 +5,7 @@
  */
 function uiowa_student_org_preprocess_page(&$variables) {
   $variables['hero_image'] = theme_get_setting('uiowa_student_org_toggle_front_page_hero');
-  $variables['hero_image_full_path'] = theme_get_setting('image_full_path');
+  $variables['hero_image_full_path'] = $GLOBALS['base_url'] . '/' . variable_get('file_public_path') . '/theme/hero_image/hero'; 
   $variables['hero_image_link1'] = NULL;
   $variables['hero_image_link2'] = NULL;
 

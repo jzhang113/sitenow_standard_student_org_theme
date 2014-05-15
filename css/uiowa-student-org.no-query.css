@@ -389,7 +389,6 @@ ol, ul, dl {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_front\.scss}line{font-family:\0000318}}
 .hero-image-wrapper {
-  background-image: url("/files/local.orgs2/files/theme/hero_image/hero");
   background-position: center;
   background-size: cover;
   border-bottom: 5px solid #ffce2f;

@@ -23,7 +23,7 @@
 
   <div class="l-hero"><div class="l-container">
     <?php if ($is_front && $hero_image): ?>
-      <div class="hero-image-wrapper">
+      <div class="hero-image-wrapper" style="background-image: url(<?php print $hero_image_full_path; ?>)">
         <div class="hero-image-overlay">
           <?php if ($site_slogan): ?>
             <span class="site-slogan"><?php print $site_slogan; ?></span>
