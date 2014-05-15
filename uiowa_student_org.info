@@ -1,5 +1,6 @@
 name = uiowa_student_org
 description = A custom theme for student organizations based on Omega.
+version = 7.x-1.0
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
