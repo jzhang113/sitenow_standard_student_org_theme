@@ -569,7 +569,7 @@ ol, ul, dl {
       padding-right: 30px;
       width: 75%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/_page\.scss}line{font-family:\0000386}}
-    #sitenow-footer #sitenow-footer-social-media {
+    #sitenow-footer #sitenow-footer-menu {
       float: left;
       width: 25%; } }
 
@@ -1020,6 +1020,62 @@ ol, ul, dl {
     position: relative;
     top: 1px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\000032}}
+#sitenow-footer-menu ul {
+  border-left: 1px solid #000000;
+  padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\000037}}
+#sitenow-footer-menu li {
+  list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\0000311}}
+#sitenow-footer-menu a {
+  border-left: 1px solid #2E2E2E;
+  display: block;
+  padding: 5px 0 5px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\0000316}}
+  #sitenow-footer-menu a:hover, #sitenow-footer-menu a:focus {
+    border-left-color: #ffce2f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\0000321}}
+#sitenow-footer-menu a[href*="facebook.com"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  content: "\f09a";
+  margin-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\0000326}}
+#sitenow-footer-menu a[href*="twitter.com"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  content: "\f099";
+  margin-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\0000331}}
+#sitenow-footer-menu a[href*="youtube.com"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  content: "\f167";
+  margin-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_footer\.scss}line{font-family:\0000336}}
+#sitenow-footer-menu a[href*="flickr.com"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  content: "\f16e";
+  margin-right: .5em; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_main\.scss}line{font-family:\000031}}
 .l-navigation {
   border-bottom: 5px solid #ffce2f; }
@@ -1272,22 +1328,22 @@ ol, ul, dl {
       padding-left: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\000032}}
-#sitenow-footer-social-links ul {
+#sitenow-footer-social-media ul {
   border-left: 1px solid #000000;
   padding-left: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\000037}}
-#sitenow-footer-social-links li {
+#sitenow-footer-social-media li {
   list-style: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\0000311}}
-#sitenow-footer-social-links a {
+#sitenow-footer-social-media a {
   border-left: 1px solid #2E2E2E;
   display: block;
   padding: 5px 0 5px 10px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\0000316}}
-  #sitenow-footer-social-links a:hover, #sitenow-footer-social-links a:focus {
+  #sitenow-footer-social-media a:hover, #sitenow-footer-social-media a:focus {
     border-left-color: #ffce2f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\0000321}}
-#sitenow-footer-social-links a[href*="facebook.com"]:before {
+#sitenow-footer-social-media a[href*="facebook.com"]:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -1297,7 +1353,7 @@ ol, ul, dl {
   content: "\f09a";
   margin-right: .5em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\0000326}}
-#sitenow-footer-social-links a[href*="twitter.com"]:before {
+#sitenow-footer-social-media a[href*="twitter.com"]:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -1307,7 +1363,7 @@ ol, ul, dl {
   content: "\f099";
   margin-right: .5em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\0000331}}
-#sitenow-footer-social-links a[href*="youtube.com"]:before {
+#sitenow-footer-social-media a[href*="youtube.com"]:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -1317,7 +1373,7 @@ ol, ul, dl {
   content: "\f167";
   margin-right: .5em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/components\/navigation\/_social_media\.scss}line{font-family:\0000336}}
-#sitenow-footer-social-links a[href*="flickr.com"]:before {
+#sitenow-footer-social-media a[href*="flickr.com"]:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
