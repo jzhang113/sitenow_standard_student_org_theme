@@ -214,7 +214,7 @@ h6 {
   font-size: 1.6rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
-.l-page a {
+a {
   color: #397b88;
   font-weight: 700;
   text-decoration: none;
@@ -223,7 +223,7 @@ h6 {
   -o-transition: all, 300ms;
   transition: all, 300ms; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/base\/_typography\.scss}line{font-family:\0000373}}
-  .l-page a:hover, .l-page a:focus, .l-page a:active {
+  a:hover, a:focus, a:active {
     color: #2a5a64; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/base\/_typography\.scss}line{font-family:\0000378}}

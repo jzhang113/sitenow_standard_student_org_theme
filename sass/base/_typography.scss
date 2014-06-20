@@ -62,7 +62,7 @@ h6 {
   @include font-size(1.6);
 }
 
-.l-page a {
+a {
   color: $link-color-default;
   font-weight: $font-weight-bold;
   text-decoration: none;
