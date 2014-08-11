@@ -21,7 +21,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_golden().
  */
-function template_preprocess_colossus(&$variables) {
+function uiowa_student_org_preprocess_colossus(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-colossus';
   $variables['attributes_array']['class'][] = 'panel-display--colossus';
 

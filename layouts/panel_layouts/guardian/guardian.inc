@@ -21,7 +21,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_golden().
  */
-function template_preprocess_guardian(&$variables) {
+function uiowa_student_org_preprocess_guardian(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-guardian';
   $variables['attributes_array']['class'][] = 'panel-display--guardian';
 

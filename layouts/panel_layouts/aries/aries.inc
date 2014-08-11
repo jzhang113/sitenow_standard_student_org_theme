@@ -25,7 +25,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_golden().
  */
-function template_preprocess_aries(&$variables) {
+function uiowa_student_org_preprocess_aries(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-aries';
   $variables['attributes_array']['class'][] = 'panel-display--aries';
 
