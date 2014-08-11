@@ -1,0 +1,164 @@
+/*******************************************************************************
+ * guardian.layout.scss
+ *
+ * Styling of the "guardian" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@media (min-width: 500px) and (max-width: 749px) {
+  .has-no-sidebars .guardian-region--first .views-grid .views-row, .guardian-region--first .views-grid .has-no-sidebars .views-row {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(odd), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd) {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(even), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(even) {
+    width: 49.15254%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 750px) and (max-width: 999px) {
+  .has-no-sidebars .guardian-region--first .views-grid .views-row, .guardian-region--first .views-grid .has-no-sidebars .views-row {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+1), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+3), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .has-no-sidebars .guardian-region--first .views-grid .views-row, .guardian-region--first .views-grid .has-no-sidebars .views-row {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+1), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+3), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+.panel-display--guardian {
+  *zoom: 1;
+}
+.panel-display--guardian:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.guardian-region {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 750px) {
+  .has-no-sidebars .guardian-region--first,
+  .has-one-sidebar .guardian-region--first {
+    width: 64.86486%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  .has-no-sidebars .guardian-region--second,
+  .has-one-sidebar .guardian-region--second {
+    width: 32.43243%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+
+  .has-two-sidebars .guardian-region--first {
+    width: 64.86486%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  .has-two-sidebars .guardian-region--second {
+    width: 32.43243%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  .has-no-sidebars .guardian-region--first,
+  .panels-dnd .guardian-region--first {
+    width: 72.97297%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  .has-no-sidebars .guardian-region--second,
+  .panels-dnd .guardian-region--second {
+    width: 24.32432%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+
+  .has-one-sidebar .guardian-region--first {
+    width: 32.05128%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  .has-one-sidebar .guardian-region--second {
+    width: 64.10256%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+
+  .has-two-sidebars .guardian-region--first,
+  .has-two-sidebars .guardian-region--second {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}

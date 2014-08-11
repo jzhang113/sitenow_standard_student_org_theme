@@ -6,6 +6,9 @@
 ## file for more information.
 ##
 
+# Set the environment.
+environment = :production
+
 # Default to development if environment is not set.
 saved = environment
 if (environment.nil?)

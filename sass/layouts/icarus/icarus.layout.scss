@@ -1,0 +1,50 @@
+/*******************************************************************************
+ * icarus.layout.scss
+ *
+ * Styling of the "icarus" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "../../variables/breakpoints";
+@import "../../utilities/grids";
+
+// Set Singularity grid variables.
+$grids: 1;
+$grids: add-grid(6 6 at $bp-tablet);
+
+$gutters: 1/3;
+
+.panel-display--icarus {
+  @include pie-clearfix;
+}
+
+.icarus-region {
+  margin-bottom: $vert-spacing-unit;
+}
+
+// Page reactions
+@include breakpoint($bp-tablet) {
+  .has-no-sidebars,
+  .has-one-sidebar,
+  .panels-dnd {
+    .icarus-region--first {
+      @include grid-span(1, 1);
+    }
+    .icarus-region--second {
+      @include isolation-span(1, 2);
+    }
+  }
+  .has-two-sidebars {
+    .icarus-region--first {
+      @include grid-span(1, 1);
+    }
+    .icarus-region--second {
+      @include isolation-span(1, 2);
+    }
+  }
+}
+
+// Views grid reactions
+.icarus-region--first .views-grid .views-row {}

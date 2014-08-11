@@ -5,7 +5,6 @@
  * grids with Singularity.
  ******************************************************************************/
 @media (min-width: 500px) and (max-width: 749px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\000033}}
   .has-no-sidebars .aries-region--first .views-grid .views-row, .aries-region--first .views-grid .has-no-sidebars .views-row,
   .has-no-sidebars .aries-region--fourth .views-grid .views-row,
   .aries-region--fourth .views-grid .has-no-sidebars .views-row {
@@ -13,27 +12,28 @@
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\000037}}
-    .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(odd), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd),
-    .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(odd),
-    .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(odd) {
-      width: 49.15254%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000310}}
-    .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(even), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(even),
-    .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(even),
-    .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(even) {
-      width: 49.15254%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(odd), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd),
+  .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(odd),
+  .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(odd) {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(even), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(even),
+  .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(even),
+  .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(even) {
+    width: 49.15254%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 @media (min-width: 750px) and (max-width: 999px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\000033}}
   .has-no-sidebars .aries-region--first .views-grid .views-row, .aries-region--first .views-grid .has-no-sidebars .views-row,
   .has-no-sidebars .aries-region--fourth .views-grid .views-row,
   .aries-region--fourth .views-grid .has-no-sidebars .views-row {
@@ -41,27 +41,28 @@
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000317}}
-    .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+1), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1),
-    .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+1),
-    .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
-      width: 32.20339%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000320}}
-    .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+3), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3),
-    .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+3),
-    .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
-      width: 32.20339%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+1), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1),
+  .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+1),
+  .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+3), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3),
+  .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+3),
+  .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\000033}}
   .has-no-sidebars .aries-region--first .views-grid .views-row, .aries-region--first .views-grid .has-no-sidebars .views-row,
   .has-no-sidebars .aries-region--fourth .views-grid .views-row,
   .aries-region--fourth .views-grid .has-no-sidebars .views-row {
@@ -69,83 +70,87 @@
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000327}}
-    .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+1), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1),
-    .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+1),
-    .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
-      width: 32.20339%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000330}}
-    .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+3), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3),
-    .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+3),
-    .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
-      width: 32.20339%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+1), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1),
+  .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+1),
+  .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .aries-region--first .views-grid .views-row:nth-child(3n+3), .aries-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3),
+  .has-no-sidebars .aries-region--fourth .views-grid .views-row:nth-child(3n+3),
+  .aries-region--fourth .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000339}}
   .has-no-sidebars .aries-region--second .views-grid .views-row, .aries-region--second .views-grid .has-no-sidebars .views-row {
     width: 49.15254%;
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000343}}
-    .has-no-sidebars .aries-region--second .views-grid .views-row:nth-child(odd), .aries-region--second .views-grid .has-no-sidebars .views-row:nth-child(odd) {
-      width: 49.15254%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/utilities\/_grids\.scss}line{font-family:\0000346}}
-    .has-no-sidebars .aries-region--second .views-grid .views-row:nth-child(even), .aries-region--second .views-grid .has-no-sidebars .views-row:nth-child(even) {
-      width: 49.15254%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .aries-region--second .views-grid .views-row:nth-child(odd), .aries-region--second .views-grid .has-no-sidebars .views-row:nth-child(odd) {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .aries-region--second .views-grid .views-row:nth-child(even), .aries-region--second .views-grid .has-no-sidebars .views-row:nth-child(even) {
+    width: 49.15254%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/layouts\/aries\/aries\.layout\.scss}line{font-family:\0000318}}
 .panel-display--aries {
-  *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.uiowa_student_org\/gems\/compass-0\.12\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-  .panel-display--aries:after {
-    content: "";
-    display: table;
-    clear: both; }
+  *zoom: 1;
+}
+.panel-display--aries:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/layouts\/aries\/aries\.layout\.scss}line{font-family:\0000322}}
 .aries-region {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/layouts\/aries\/aries\.layout\.scss}line{font-family:\0000329}}
   .aries-region--second {
     width: 57.44681%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 2.12766%;
-    clear: both; }
+    clear: both;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/layouts\/aries\/aries\.layout\.scss}line{font-family:\0000332}}
   .aries-region--third {
     width: 40.42553%;
     clear: right;
     float: right;
-    margin-right: 0; }
+    margin-right: 0;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/genjohnson\/sitenow\/standard\/orgs2\/sites\/all\/themes\/sitenow_standard_student_org_theme\/sass\/layouts\/aries\/aries\.layout\.scss}line{font-family:\0000335}}
   .aries-region--fourth {
     width: 100%;
     clear: right;
     float: right;
     margin-right: 0;
-    clear: both; } }
+    clear: both;
+  }
+}

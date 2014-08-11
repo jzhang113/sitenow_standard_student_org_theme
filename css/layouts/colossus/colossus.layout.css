@@ -1,0 +1,164 @@
+/*******************************************************************************
+ * colossus.layout.scss
+ *
+ * Styling of the "Colossus" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@media (min-width: 500px) and (max-width: 749px) {
+  .has-no-sidebars .colossus-region--first .views-grid .views-row, .colossus-region--first .views-grid .has-no-sidebars .views-row {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(odd), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd) {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(even), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(even) {
+    width: 49.15254%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 750px) and (max-width: 999px) {
+  .has-no-sidebars .colossus-region--first .views-grid .views-row, .colossus-region--first .views-grid .has-no-sidebars .views-row {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+1), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+3), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .has-no-sidebars .colossus-region--first .views-grid .views-row, .colossus-region--first .views-grid .has-no-sidebars .views-row {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+1), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+3), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+.panel-display--colossus {
+  *zoom: 1;
+}
+.panel-display--colossus:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colossus-region {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 750px) {
+  .has-no-sidebars .colossus-region--first,
+  .has-one-sidebar .colossus-region--first {
+    width: 64.86486%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  .has-no-sidebars .colossus-region--second,
+  .has-one-sidebar .colossus-region--second {
+    width: 32.43243%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .has-two-sidebars .colossus-region--first {
+    width: 64.86486%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  .has-two-sidebars .colossus-region--second {
+    width: 32.43243%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1200px) {
+  .has-no-sidebars .colossus-region--first,
+  .panels-dnd .colossus-region--first {
+    width: 72.97297%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  .has-no-sidebars .colossus-region--second,
+  .panels-dnd .colossus-region--second {
+    width: 24.32432%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .has-one-sidebar .colossus-region--first {
+    width: 64.10256%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  .has-one-sidebar .colossus-region--second {
+    width: 32.05128%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
+  .has-two-sidebars .colossus-region--first,
+  .has-two-sidebars .colossus-region--second {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
