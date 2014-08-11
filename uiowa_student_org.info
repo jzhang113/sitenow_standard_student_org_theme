@@ -1,5 +1,5 @@
-name = uiowa_student_org
-description = A custom theme for student organizations based on Omega.
+name = Hero
+description = A fluid theme with a prominent hero image region.
 version = 7.x-1.3
 base theme = omega
 screenshot = screenshot.png
