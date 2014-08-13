@@ -1,6 +1,6 @@
 name = Hero
 description = A fluid theme with a prominent hero image region.
-version = 7.x-1.3
+version = 7.x-1.4
 base theme = sitenow_standard_base
 screenshot = screenshot.png
 engine = phptemplate
