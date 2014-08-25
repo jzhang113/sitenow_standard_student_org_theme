@@ -31,7 +31,6 @@
   }
 }
 
-// %views-read-more {
-//   margin: 40px 0;
-//   text-align: center;
-// }
+.element-invisible {
+  @include element-invisible;
+}

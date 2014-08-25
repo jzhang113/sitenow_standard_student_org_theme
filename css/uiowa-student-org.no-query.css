@@ -33,6 +33,15 @@
   color: #397b88;
 }
 
+.element-invisible {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url("fonts/fontawesome/fontawesome-webfont.eot?v=4.0.0");
@@ -42,14 +51,12 @@
 }
 
 .section-articles .pane-articles-articles-teaser .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .webform-component-fieldset {
@@ -110,7 +117,7 @@ th img {
 }
 
 th.active {
-  background: url('../images/rgbapng/397b881a-5.png?1407782847');
+  background: url('../images/rgbapng/397b881a-5.png?1398355118');
   background: rgba(57, 123, 136, 0.1);
 }
 
@@ -129,7 +136,7 @@ td {
 }
 
 td.active {
-  background: url('../images/rgbapng/397b881a-5.png?1407782847');
+  background: url('../images/rgbapng/397b881a-5.png?1398355118');
   background: rgba(57, 123, 136, 0.1);
 }
 td.active a {
@@ -408,7 +415,7 @@ ol, ul, dl {
   letter-spacing: 1px;
   font-size: 20px;
   font-size: 2rem;
-  background: url('../images/rgbapng/000000bf-5.png?1407782847');
+  background: url('../images/rgbapng/000000bf-5.png?1398355118');
   background: rgba(0, 0, 0, 0.75);
 }
 .hero-image-overlay .hero-image-links a {
@@ -425,7 +432,7 @@ ol, ul, dl {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background: url('../images/rgbapng/000000bf-5.png?1407782847');
+  background: url('../images/rgbapng/000000bf-5.png?1398355118');
   background: rgba(0, 0, 0, 0.75);
   margin: 1em 0.25em;
 }
@@ -568,25 +575,21 @@ ol, ul, dl {
   color: #a14557;
 }
 .views-summary .has-filter .label {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .section-articles .pane-articles-articles-teaser .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .view-display-id-articles_grid .view-content {
@@ -620,14 +623,12 @@ ol, ul, dl {
 }
 
 .page-events .pane-events-events-teaser .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .node-type-event .pane-node-title {
@@ -954,14 +955,12 @@ ol, ul, dl {
 }
 
 .l-region--navigation .block--responsive-navigation-1 .block__title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 .l-region--navigation .block--responsive-navigation-1 #nav-toggle {
   background-color: #397b88;
@@ -1197,14 +1196,12 @@ ol, ul, dl {
 }
 
 .page-people .pane-people-people-grid .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .node-type-people .node-full .node__content {
@@ -1268,14 +1265,12 @@ ol, ul, dl {
 }
 
 .view-display-id-people_table caption {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 .view-display-id-people_table .views-field-field-person-image {
   line-height: 0;
