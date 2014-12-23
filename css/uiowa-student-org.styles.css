@@ -117,7 +117,7 @@ th img {
 }
 
 th.active {
-  background: url('../images/rgbapng/397b881a-5.png?1398355118');
+  background: url('../images/rgbapng/397b881a-5.png?1419357380');
   background: rgba(57, 123, 136, 0.1);
 }
 
@@ -136,7 +136,7 @@ td {
 }
 
 td.active {
-  background: url('../images/rgbapng/397b881a-5.png?1398355118');
+  background: url('../images/rgbapng/397b881a-5.png?1419357380');
   background: rgba(57, 123, 136, 0.1);
 }
 td.active a {
@@ -457,7 +457,7 @@ ol, ul, dl {
   letter-spacing: 1px;
   font-size: 20px;
   font-size: 2rem;
-  background: url('../images/rgbapng/000000bf-5.png?1398355118');
+  background: url('../images/rgbapng/000000bf-5.png?1419357380');
   background: rgba(0, 0, 0, 0.75);
 }
 @media (min-width: 750px) {
@@ -485,7 +485,7 @@ ol, ul, dl {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background: url('../images/rgbapng/000000bf-5.png?1398355118');
+  background: url('../images/rgbapng/000000bf-5.png?1419357380');
   background: rgba(0, 0, 0, 0.75);
   margin: 1em 0.25em;
 }
@@ -859,7 +859,7 @@ ol, ul, dl {
   margin-top: 1em;
 }
 
-.view-display-id-events_grid .views-field-field-event-date .field-content:before, .view-display-id-events_grid .views-field-field-event-date-3 .field-content:before, .view-display-id-events_grid .views-field-field-event-location .name-block .name-block:before, .view-display-id-events_teaser .views-field-field-event-date .field-content:before, .view-display-id-events_teaser .views-field-field-event-date-3 .field-content:before, .view-display-id-events_teaser .views-field-field-event-location .name-block .name-block:before {
+.view-display-id-events_grid .views-field-field-event-date .field-content:before, .view-display-id-events_grid .views-field-field-event-date-3 .field-content:before, .view-display-id-events_grid .views-field-field-event-location .name-block .name-block:before, .view-display-id-events_teaser .views-field-field-event-date .field-content:before, .view-display-id-events_teaser .views-field-field-event-date-3 .field-content:before, .view-display-id-events_teaser .views-field-field-event-location .name-block .name-block:before, .pane-localist-pane .lwn .lwn0:before, .pane-localist-pane .lwl .lwl0:before {
   width: 15px;
   margin-right: 10px;
   text-align: center;
@@ -997,6 +997,70 @@ ol, ul, dl {
     margin-right: 0;
     clear: none;
   }
+}
+
+.pane-localist-pane #lwe {
+  margin: 0;
+  padding: 0;
+}
+.pane-localist-pane .lwe {
+  overflow: hidden;
+  *overflow: visible;
+  *zoom: 1;
+  list-style: none;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 4px solid #eee;
+}
+.pane-localist-pane .lwn .lwn0 {
+  display: block;
+  margin-bottom: .3em;
+}
+.pane-localist-pane .lwn .lwn0:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  content: "\f073";
+}
+.pane-localist-pane .lwn a {
+  display: block;
+  margin-bottom: .3em;
+  font-weight: 100;
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+.pane-localist-pane .lwi1,
+.pane-localist-pane .lwi0 {
+  display: block;
+  line-height: 0;
+}
+.pane-localist-pane .lwi1 a,
+.pane-localist-pane .lwi0 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  float: right;
+  margin: 0 0 1em 1em;
+  border-color: transparent;
+}
+.pane-localist-pane .lwl .lwl0 {
+  margin-right: .5em;
+}
+.pane-localist-pane .lwl .lwl0:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  content: "\f041";
+  text-indent: 0;
 }
 
 .breadcrumb {
@@ -1553,7 +1617,7 @@ ol, ul, dl {
   .flexslider .flex-caption {
     position: absolute;
     bottom: 0;
-    background: url('../images/rgbapng/000000bf-5.png?1398355118');
+    background: url('../images/rgbapng/000000bf-5.png?1419357380');
     background: rgba(0, 0, 0, 0.75);
   }
   .flexslider .views-field-slideshow-link {
