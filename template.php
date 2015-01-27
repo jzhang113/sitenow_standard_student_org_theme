@@ -11,8 +11,10 @@ function uiowa_student_org_breadcrumb($vars) {
 
   if (!empty($vars['breadcrumb'])) {
 
-    if ($vars['breadcrumb_current']) {
-      $vars['breadcrumb'][] = l(drupal_get_title(), current_path(), array('html' => TRUE));
+    if (!empty($vars['breadcrumb_current'])) {
+      if ($vars['breadcrumb_current']) {
+        $vars['breadcrumb'][] = l(drupal_get_title(), current_path(), array('html' => TRUE));
+      }
     }
 
     $output = '<div id="breadcrumb" class="clearfix"><ul class="breadcrumb">';
