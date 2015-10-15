@@ -121,7 +121,7 @@ th img {
 }
 
 th.active {
-  background: url('../images/rgbapng/397b881a-5.png?1419357380');
+  background: url('../images/rgbapng/397b881a-5.png?1444917434');
   background: rgba(57, 123, 136, 0.1);
 }
 
@@ -140,7 +140,7 @@ td {
 }
 
 td.active {
-  background: url('../images/rgbapng/397b881a-5.png?1419357380');
+  background: url('../images/rgbapng/397b881a-5.png?1444917434');
   background: rgba(57, 123, 136, 0.1);
 }
 td.active a {
@@ -419,7 +419,7 @@ ol, ul, dl {
   letter-spacing: 1px;
   font-size: 20px;
   font-size: 2rem;
-  background: url('../images/rgbapng/000000bf-5.png?1419357380');
+  background: url('../images/rgbapng/000000bf-5.png?1444917434');
   background: rgba(0, 0, 0, 0.75);
 }
 .hero-image-overlay .hero-image-links a {
@@ -436,7 +436,7 @@ ol, ul, dl {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background: url('../images/rgbapng/000000bf-5.png?1419357380');
+  background: url('../images/rgbapng/000000bf-5.png?1444917434');
   background: rgba(0, 0, 0, 0.75);
   margin: 1em 0.25em;
 }
