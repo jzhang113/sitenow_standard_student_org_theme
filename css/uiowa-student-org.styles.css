@@ -81,11 +81,6 @@ input {
   font-weight: 600;
 }
 
-img, media {
-  height: auto;
-  max-width: 100%;
-}
-
 .pane-title,
 .block__title {
   color: #3c3c3c;
